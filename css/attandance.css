@@ -1,0 +1,1552 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: auto; /* Menambahkan scrollbar horizontal */
+    overflow-y: auto; /* Menyembunyikan scrollbar vertikal jika tidak diperlukan */
+  }
+
+.attendance {
+  background-color: #f4f6f9;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.attendance .div {
+  background-color: #f4f6f9;
+  width: 1440px;
+  height: 648px;
+  position: relative;
+}
+
+.attendance .container {
+  position: absolute;
+  width: 236px;
+  height: 646px;
+  top: 0;
+  left: 0;
+  background-color: #31363f;
+  border-radius: 4px;
+}
+
+.attendance .container-2 {
+  position: absolute;
+  width: 236px;
+  height: 50px;
+  top: 0;
+  left: 0;
+  background-color: #dee1e6;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .text-wrapper {
+  position: absolute;
+  top: 10px;
+  left: 59px;
+  font-family: "Lexend-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 18px;
+  letter-spacing: 0;
+  line-height: 28px;
+  white-space: nowrap;
+}
+
+.attendance .image {
+  position: absolute;
+  width: 34px;
+  height: 34px;
+  top: 6px;
+  left: 18px;
+}
+
+.attendance .container-3 {
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  top: 128px;
+  left: 7px;
+  background-color: #e6d64e;
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.container-3:hover {
+  background-color: yellowgreen;
+}
+
+.attendance .text-wrapper-2 {
+  position: absolute;
+  top: 7px;
+  left: 50px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .img {
+  position: absolute;
+  width: 23px;
+  height: 18px;
+  top: 10px;
+  left: 16px;
+}
+
+.attendance .text-wrapper-3 {
+  top: 71px;
+  left: 80px;
+  color: white;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .image-2 {
+  position: absolute;
+  width: 35px;
+  height: 35px;
+  top: 65px;
+  left: 35px;
+}
+
+.attendance .container-4 {
+  top: 186px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: #e6d64e;
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.container-4:hover {
+  background-color: yellowgreen;
+}
+
+.attendance .container-5 {
+  top: 244px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: #e6d64e;
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.container-5:hover {
+  background-color: yellowgreen;
+}
+
+.attendance .container-6 {
+  top: 302px;
+  border: 1px solid;
+  border-color: #bdc1ca;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: #e6d64e;
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.container-6:hover {
+  background-color: yellowgreen;
+}
+
+.attendance .container-7 {
+  top: 360px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: #e6d64e;
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.container-7:hover {
+  background-color: yellowgreen;
+}
+
+.attendance .container-8 {
+  top: 418px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: #e6d64e;
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.container-8:hover {
+  background-color: yellowgreen;
+}
+
+.attendance .container-9 {
+  top: 476px;
+  position: absolute;
+  width: 221px;
+  height: 38px;
+  left: 7px;
+  background-color: #e6d64e;
+  border-radius: 6px;
+  box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+}
+
+.container-9:hover {
+  background-color: yellowgreen;
+}
+
+.attendance .container-10 {
+  position: absolute;
+  width: 1204px;
+  height: 53px;
+  top: -2px;
+  left: 236px;
+  background-color: #31363f;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .textbox {
+  position: absolute;
+  width: 195px;
+  height: 31px;
+  top: 10px;
+  left: 209px;
+  background-color: #f4f6f9;
+  border-radius: 3px;
+  border: 1px solid;
+  border-color: #9095a1;
+}
+
+.attendance .text-wrapper-4 {
+  position: absolute;
+  top: 4px;
+  left: 8px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 21px;
+  white-space: nowrap;
+}
+
+.attendance .search {
+  position: absolute;
+  width: 17px;
+  height: 17px;
+  top: 6px;
+  left: 169px;
+}
+
+.attendance .squares-four {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 18px;
+  left: 1151px;
+}
+
+.attendance .caret-up {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  top: 5px;
+  left: 1192px;
+}
+
+.attendance .header-menu {
+  position: absolute;
+  width: 163px;
+  height: 52px;
+  top: 0;
+  left: 20px;
+}
+
+.attendance .frame {
+  width: 90px;
+  left: 0;
+  position: absolute;
+  height: 52px;
+  top: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-5 {
+  top: 14px;
+  left: 41px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .menu {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  top: 14px;
+  left: 9px;
+}
+
+.attendance .div-wrapper {
+  width: 74px;
+  left: 90px;
+  position: absolute;
+  height: 52px;
+  top: 0;
+  border-radius: 4px;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-6 {
+  top: 14px;
+  left: 9px;
+  font-family: "Manrope-Bold", Helvetica;
+  font-weight: 700;
+  color: #000000;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .image-3 {
+  position: absolute;
+  width: 26px;
+  height: 20px;
+  top: 17px;
+  left: 1107px;
+}
+
+.attendance .text-wrapper-7 {
+  top: 64px;
+  left: 251px;
+  font-family: "Lexend-Regular", Helvetica;
+  font-size: 23px;
+  line-height: 36px;
+  position: absolute;
+  font-weight: 400;
+  color: #171a1f;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-8 {
+  top: 68px;
+  left: 1325px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  font-weight: 400;
+  color: #171a1f;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-9 {
+  position: absolute;
+  top: 68px;
+  left: 1276px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .container-11 {
+  position: absolute;
+  width: 1156px;
+  height: 82px;
+  top: 257px;
+  left: 251px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .p {
+  position: absolute;
+  top: 42px;
+  left: 17px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #bdc1ca;
+  font-size: 12px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-10 {
+  top: 15px;
+  left: 17px;
+  color: #171a1f;
+  font-size: 16px;
+  line-height: 26px;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .button {
+  all: unset;
+  box-sizing: border-box;
+  width: 143px;
+  height: 38px;
+  top: 16px;
+  left: 784px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #171a1f;
+  position: absolute;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-11 {
+  top: 7px;
+  left: 44px;
+  color: #171a1f;
+  font-size: 14px;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .calendar {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9px;
+  left: 18px;
+}
+
+.attendance .button-2 {
+  all: unset;
+  box-sizing: border-box;
+  width: 98px;
+  height: 38px;
+  top: 16px;
+  left: 935px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #171a1f;
+  position: absolute;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-12 {
+  position: absolute;
+  top: 8px;
+  left: 42px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.attendance .file-import {
+  position: absolute;
+  width: 19px;
+  height: 19px;
+  top: 10px;
+  left: 17px;
+}
+
+.attendance .button-3 {
+  all: unset;
+  box-sizing: border-box;
+  width: 95px;
+  height: 38px;
+  top: 16px;
+  left: 1041px;
+  background-color: #ffbc25;
+  border-radius: 4px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.attendance .export {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 8px;
+  left: 14px;
+}
+
+.attendance .container-12 {
+  position: absolute;
+  width: 1156px;
+  height: 54px;
+  top: 568px;
+  left: 251px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .text-wrapper-13 {
+  position: absolute;
+  top: 16px;
+  left: 21px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .button-4 {
+  all: unset;
+  box-sizing: border-box;
+  width: 79px;
+  height: 34px;
+  top: 10px;
+  left: 975px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #171a1f;
+  position: absolute;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-14 {
+  position: absolute;
+  top: 5px;
+  left: 12px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .button-5 {
+  all: unset;
+  box-sizing: border-box;
+  width: 58px;
+  height: 34px;
+  top: 10px;
+  left: 1075px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #171a1f;
+  position: absolute;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-15 {
+  position: absolute;
+  top: 5px;
+  left: 14px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .container-13 {
+  position: absolute;
+  width: 1156px;
+  height: 60px;
+  top: 339px;
+  left: 251px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .button-6 {
+  all: unset;
+  box-sizing: border-box;
+  width: 295px;
+  height: 41px;
+  top: 10px;
+  left: 738px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #9095a1;
+  position: absolute;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-16 {
+  position: absolute;
+  top: 8px;
+  left: 138px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 23px;
+  white-space: nowrap;
+}
+
+.attendance .search-2 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 10px;
+  left: 110px;
+}
+
+.attendance .container-14 {
+  position: absolute;
+  width: 404px;
+  height: 40px;
+  top: 10px;
+  left: 130px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .button-7 {
+  all: unset;
+  box-sizing: border-box;
+  width: 75px;
+  height: 38px;
+  top: 0;
+  left: 328px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #171a1f;
+  position: absolute;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-17 {
+  position: absolute;
+  top: 7px;
+  left: 12px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .container-15 {
+  position: absolute;
+  width: 89px;
+  height: 38px;
+  top: 0;
+  left: 232px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .text-wrapper-18 {
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #565d6d;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .container-16 {
+  position: absolute;
+  width: 91px;
+  height: 38px;
+  top: 0;
+  left: 0;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .text-wrapper-19 {
+  position: absolute;
+  top: 10px;
+  left: 15px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  text-align: center;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .container-17 {
+  position: absolute;
+  width: 126px;
+  height: 38px;
+  top: 0;
+  left: 99px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .text-wrapper-20 {
+  top: 10px;
+  left: 12px;
+  color: #171a1f;
+  text-align: center;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .button-8 {
+  all: unset;
+  box-sizing: border-box;
+  width: 106px;
+  height: 38px;
+  top: 11px;
+  left: 20px;
+  background-color: #ffbc25;
+  border-radius: 4px;
+  position: absolute;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-21 {
+  position: absolute;
+  top: 8px;
+  left: 15px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 20px;
+  white-space: nowrap;
+}
+
+.attendance .button-9 {
+  all: unset;
+  box-sizing: border-box;
+  width: 95px;
+  height: 38px;
+  top: 11px;
+  left: 1041px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  border: 1px solid;
+  border-color: #171a1f;
+  position: absolute;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-22 {
+  position: absolute;
+  top: 7px;
+  left: 40px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .sort-tool {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  top: 9px;
+  left: 14px;
+}
+
+.attendance .container-18 {
+  position: absolute;
+  width: 1156px;
+  height: 64px;
+  top: 439px;
+  left: 251px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .overlap-group {
+  position: absolute;
+  width: 92px;
+  height: 40px;
+  top: 13px;
+  left: 172px;
+}
+
+.attendance .text-wrapper-23 {
+  position: absolute;
+  top: 18px;
+  left: 1px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #bdc1ca;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-24 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-25 {
+  top: 22px;
+  left: 400px;
+  color: #bdc1ca;
+  font-size: 13px;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-26 {
+  position: absolute;
+  top: 22px;
+  left: 535px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #dbac41;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-27 {
+  top: 22px;
+  left: 821px;
+  color: #bdc1ca;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-28 {
+  top: 22px;
+  left: 1000px;
+  color: #9095a1;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-29 {
+  position: absolute;
+  top: 22px;
+  left: 21px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-30 {
+  top: 22px;
+  left: 904px;
+  color: #bdc1ca;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .button-10 {
+  all: unset;
+  box-sizing: border-box;
+  width: 122px;
+  height: 23px;
+  top: 21px;
+  left: 656px;
+  background-color: #eff8ff;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: #3c77da;
+  position: absolute;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-31 {
+  color: #3c77da;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .avatar {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 15px;
+  left: 126px;
+  background-color: #d3c1fa;
+  border-radius: 18px;
+  overflow: hidden;
+}
+
+.attendance .rectangle {
+  position: absolute;
+  width: 36px;
+  height: 36px;
+  top: 0;
+  left: 0;
+}
+
+.attendance .text-wrapper-32 {
+  top: 20px;
+  left: 1086px;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .container-19 {
+  position: absolute;
+  width: 1156px;
+  height: 64px;
+  top: 504px;
+  left: 251px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .overlap {
+  position: absolute;
+  width: 99px;
+  height: 40px;
+  top: 13px;
+  left: 172px;
+}
+
+.attendance .text-wrapper-33 {
+  top: 18px;
+  left: 0;
+  color: #bdc1ca;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-34 {
+  position: absolute;
+  top: 0;
+  left: 1px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #171a1f;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-35 {
+  position: absolute;
+  top: 22px;
+  left: 20px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .button-11 {
+  all: unset;
+  box-sizing: border-box;
+  width: 122px;
+  height: 23px;
+  top: 21px;
+  left: 656px;
+  background-color: #eff8ff;
+  border-radius: 12px;
+  border: 1px solid;
+  border-color: black;
+  position: absolute;
+  overflow: hidden;
+}
+
+.attendance .text-wrapper-36 {
+  color: black;
+  position: absolute;
+  top: 0;
+  left: 5px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .image-4 {
+  position: absolute;
+  width: 38px;
+  height: 38px;
+  top: 13px;
+  left: 125px;
+}
+
+.attendance .container-20 {
+  position: absolute;
+  width: 1156px;
+  height: 39px;
+  top: 400px;
+  left: 251px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .overlap-2 {
+  position: absolute;
+  width: 63px;
+  height: 18px;
+  top: 11px;
+  left: 21px;
+}
+
+.attendance .text-wrapper-37 {
+  top: 0;
+  left: 0;
+  color: #9095a1;
+  font-size: 11px;
+  line-height: 18px;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .image-5 {
+  position: absolute;
+  width: 13px;
+  height: 12px;
+  top: 3px;
+  left: 50px;
+}
+
+.attendance .text-wrapper-38 {
+  top: 10px;
+  left: 126px;
+  color: #9095a1;
+  font-size: 12px;
+  line-height: 20px;
+  position: absolute;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-39 {
+  position: absolute;
+  top: 11px;
+  left: 1000px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .over-time {
+  position: absolute;
+  top: 10px;
+  left: 1086px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-40 {
+  left: 904px;
+  position: absolute;
+  top: 10px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-41 {
+  left: 821px;
+  position: absolute;
+  top: 10px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-42 {
+  position: absolute;
+  top: 10px;
+  left: 656px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-43 {
+  position: absolute;
+  top: 10px;
+  left: 535px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-44 {
+  top: 10px;
+  left: 400px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 14px;
+  line-height: 22px;
+  position: absolute;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .overlap-3 {
+  position: absolute;
+  width: 1156px;
+  height: 134px;
+  top: 112px;
+  left: 251px;
+  border-radius: 4px;
+}
+
+.attendance .text-wrapper-45 {
+  position: absolute;
+  top: 43px;
+  left: 989px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #bdc1ca;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .image-6 {
+  position: absolute;
+  width: 22px;
+  height: 22px;
+  top: 43px;
+  left: 962px;
+}
+
+.attendance .text-wrapper-46 {
+  position: absolute;
+  top: 48px;
+  left: 0;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #d19b25;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-47 {
+  position: absolute;
+  top: 48px;
+  left: 75px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #bdc1ca;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .container-21 {
+  position: absolute;
+  width: 1156px;
+  height: 134px;
+  top: 0;
+  left: 0;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .text-wrapper-48 {
+  position: absolute;
+  top: 40px;
+  left: 100px;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  font-size: 21px;
+  letter-spacing: 0;
+  line-height: 32px;
+  white-space: nowrap;
+}
+
+.attendance .container-22 {
+  position: absolute;
+  width: 143px;
+  height: 95px;
+  top: 23px;
+  left: 833px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .text-wrapper-49 {
+  position: absolute;
+  top: 18px;
+  left: 23px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-50 {
+  top: 44px;
+  left: 24px;
+  font-size: 23px;
+  line-height: 36px;
+  position: absolute;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .image-7 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 52px;
+  left: 102px;
+}
+
+.attendance .container-23 {
+  position: absolute;
+  width: 144px;
+  height: 95px;
+  top: 23px;
+  left: 513px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .text-wrapper-51 {
+  top: 46px;
+  left: 24px;
+  font-size: 22px;
+  line-height: 34px;
+  position: absolute;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-52 {
+  position: absolute;
+  top: 18px;
+  left: 24px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .image-8 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 52px;
+  left: 103px;
+}
+
+.attendance .container-24 {
+  position: absolute;
+  width: 143px;
+  height: 97px;
+  top: 22px;
+  left: 354px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .text-wrapper-53 {
+  position: absolute;
+  width: 84px;
+  top: 20px;
+  left: 23px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 11px;
+  letter-spacing: 0;
+  line-height: 18px;
+}
+
+.attendance .text-wrapper-54 {
+  top: 47px;
+  left: 24px;
+  font-size: 22px;
+  line-height: 34px;
+  position: absolute;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .image-9 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 53px;
+  left: 102px;
+}
+
+.attendance .container-25 {
+  position: absolute;
+  width: 143px;
+  height: 97px;
+  top: 22px;
+  left: 673px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .text-wrapper-55 {
+  top: 47px;
+  left: 25px;
+  font-size: 22px;
+  line-height: 34px;
+  position: absolute;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .text-wrapper-56 {
+  position: absolute;
+  width: 41px;
+  top: 19px;
+  left: 25px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.attendance .image-10 {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 53px;
+  left: 103px;
+}
+
+.attendance .container-26 {
+  position: absolute;
+  width: 143px;
+  height: 97px;
+  top: 22px;
+  left: 993px;
+  background-color: #fffefe;
+  border-radius: 4px;
+  box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+}
+
+.attendance .text-wrapper-57 {
+  position: absolute;
+  width: 51px;
+  top: 19px;
+  left: 23px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #9095a1;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+}
+
+.attendance .text-wrapper-58 {
+  top: 48px;
+  left: 23px;
+  font-size: 22px;
+  line-height: 34px;
+  position: absolute;
+  font-family: "Lexend-Bold", Helvetica;
+  font-weight: 700;
+  color: #171a1f;
+  letter-spacing: 0;
+  white-space: nowrap;
+}
+
+.attendance .this-show-daily-data {
+  position: absolute;
+  top: 77px;
+  left: 101px;
+  font-family: "Manrope-Regular", Helvetica;
+  font-weight: 400;
+  color: #bdc1ca;
+  font-size: 13px;
+  letter-spacing: 0;
+  line-height: 22px;
+  white-space: nowrap;
+}
+
+.attendance .image-11 {
+  position: absolute;
+  width: 58px;
+  height: 58px;
+  top: 39px;
+  left: 25px;
+}

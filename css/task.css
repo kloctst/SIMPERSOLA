@@ -1,0 +1,1624 @@
+.project-assignment {
+    background-color: #f4f6f9;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+
+  
+  .project-assignment .div {
+    background-color: #f4f6f9;
+    width: 1440px;
+    height: 648px;
+    position: relative;
+  }
+  
+  .project-assignment .container {
+    position: absolute;
+    width: 236px;
+    height: 646px;
+    top: 0;
+    left: 0;
+    background-color: #31363f;
+    border-radius: 4px;
+  }
+  
+  .project-assignment .container-2 {
+    position: absolute;
+    width: 236px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background-color: #dee1e6;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .project-assignment .text-wrapper {
+    position: absolute;
+    top: 10px;
+    left: 59px;
+    font-family: "Lexend-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 18px;
+    letter-spacing: 0;
+    line-height: 28px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .image {
+    position: absolute;
+    width: 34px;
+    height: 34px;
+    top: 6px;
+    left: 18px;
+  }
+  
+  .project-assignment .container-3 {
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    top: 128px;
+    left: 7px;
+    background-color: yellow;
+    border-radius: 6px;
+    box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+  }
+
+  .container-3:hover {
+    background-color: yellowgreen;
+  }
+  
+  .project-assignment .text-wrapper-2 {
+    position: absolute;
+    top: 7px;
+    left: 50px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .img {
+    position: absolute;
+    width: 23px;
+    height: 18px;
+    top: 10px;
+    left: 16px;
+  }
+  
+  .project-assignment .text-wrapper-3 {
+    top: 71px;
+    left: 59px;
+    position: absolute;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: white;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .image-2 {
+    position: absolute;
+    width: 35px;
+    height: 35px;
+    top: 65px;
+    left: 18px;
+  }
+  
+  .project-assignment .container-4 {
+    top: 186px;
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 7px;
+    background-color: yellow;
+    border-radius: 6px;
+    box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+  }
+
+  .container-4:hover {
+    background-color: yellowgreen;
+  }
+  
+  .project-assignment .container-5 {
+    top: 244px;
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 7px;
+    background-color: yellow;
+    border-radius: 6px;
+    box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+  }
+
+  .container-5:hover {
+    background-color: yellowgreen;
+  }
+  
+  .project-assignment .container-6 {
+    top: 302px;
+    border: 1px solid;
+    border-color: #bdc1ca;
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 7px;
+    background-color: yellow;
+    border-radius: 6px;
+    box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+  }
+
+  .container-6:hover {
+    background-color: yellowgreen;
+  }
+  
+  .project-assignment .container-7 {
+    top: 360px;
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 7px;
+    background-color: yellow;
+    border-radius: 6px;
+    box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+  }
+
+  .container-7:hover {
+    background-color: yellowgreen;
+  }
+  
+  .project-assignment .container-8 {
+    top: 418px;
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 7px;
+    background-color: yellow;
+    border-radius: 6px;
+    box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+  }
+
+  .container-8:hover {
+    background-color: yellowgreen;
+  }
+  
+  .project-assignment .container-9 {
+    top: 476px;
+    position: absolute;
+    width: 221px;
+    height: 38px;
+    left: 7px;
+    background-color: yellow;
+    border-radius: 6px;
+    box-shadow: 0px 4px 9px #171a1f1c, 0px 0px 2px #171a1f1f;
+  }
+  
+  .container-9:hover {
+    background-color: yellowgreen;
+  }
+
+  .project-assignment .container-10 {
+    position: absolute;
+    width: 221px;
+    height: 41px;
+    top: 592px;
+    left: 7px;
+    background-color: yellow;
+    border-radius: 6px;
+    overflow: hidden;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .project-assignment .text-wrapper-4 {
+    position: absolute;
+    top: 9px;
+    left: 58px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .overlap-group {
+    position: absolute;
+    width: 83px;
+    height: 26px;
+    top: 8px;
+    left: 121px;
+    border-radius: 6px;
+  }
+  
+  .project-assignment .button {
+    all: unset;
+    box-sizing: border-box;
+    width: 83px;
+    height: 26px;
+    top: 0;
+    left: 0;
+    background-color: #fefefe;
+    border-radius: 6px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-5 {
+    position: absolute;
+    top: 2px;
+    left: 28px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .image-3 {
+    position: absolute;
+    width: 18px;
+    height: 21px;
+    top: 2px;
+    left: 5px;
+  }
+  
+  .project-assignment .image-4 {
+    position: absolute;
+    width: 20px;
+    height: 21px;
+    top: 10px;
+    left: 28px;
+  }
+  
+  .project-assignment .container-11 {
+    position: absolute;
+    width: 1204px;
+    height: 53px;
+    top: -2px;
+    left: 236px;
+    background-color: #31363f;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .project-assignment .textbox {
+    position: absolute;
+    width: 195px;
+    height: 31px;
+    top: 10px;
+    left: 209px;
+    background-color: #f4f6f9;
+    border-radius: 3px;
+    border: 1px solid;
+    border-color: #9095a1;
+  }
+  
+  .project-assignment .text-wrapper-6 {
+    position: absolute;
+    top: 4px;
+    left: 8px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #9095a1;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 21px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .search {
+    position: absolute;
+    width: 17px;
+    height: 17px;
+    top: 6px;
+    left: 169px;
+  }
+  
+  .project-assignment .squares-four {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    top: 18px;
+    left: 1151px;
+  }
+  
+  .project-assignment .caret-up {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    top: 5px;
+    left: 1192px;
+  }
+  
+  .project-assignment .header-menu {
+    position: absolute;
+    width: 163px;
+    height: 52px;
+    top: 0;
+    left: 20px;
+  }
+  
+  .project-assignment .frame {
+    position: absolute;
+    width: 90px;
+    height: 52px;
+    top: 0;
+    left: 0;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-7 {
+    position: absolute;
+    top: 14px;
+    left: 41px;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .menu {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 14px;
+    left: 9px;
+  }
+  
+  .project-assignment .div-wrapper {
+    position: absolute;
+    width: 74px;
+    height: 52px;
+    top: 0;
+    left: 90px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-8 {
+    top: 14px;
+    left: 9px;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #000000;
+    font-size: 14px;
+    line-height: 22px;
+    position: absolute;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .image-5 {
+    position: absolute;
+    width: 26px;
+    height: 20px;
+    top: 17px;
+    left: 1107px;
+  }
+  
+  .project-assignment .project-assginment {
+    top: 71px;
+    left: 1276px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-size: 14px;
+    line-height: 22px;
+    white-space: nowrap;
+    position: absolute;
+    font-weight: 400;
+    color: #171a1f;
+    letter-spacing: 0;
+  }
+  
+  .project-assignment .text-wrapper-9 {
+    position: absolute;
+    top: 71px;
+    left: 1229px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-10 {
+    width: 248px;
+    top: 64px;
+    left: 256px;
+    font-family: "Lexend-Regular", Helvetica;
+    font-size: 23px;
+    line-height: 36px;
+    position: absolute;
+    font-weight: 400;
+    color: #171a1f;
+    letter-spacing: 0;
+  }
+  
+  .project-assignment .overlap {
+    width: 248px;
+    top: 128px;
+    left: 784px;
+    position: absolute;
+    height: 44px;
+  }
+  
+  .project-assignment .overlap-2 {
+    width: 248px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 44px;
+  }
+  
+  .project-assignment .text-wrapper-11 {
+    width: 97px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .project-assignment .line {
+    position: absolute;
+    width: 248px;
+    height: 1px;
+    top: 38px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .project-assignment .image-6 {
+    position: absolute;
+    width: 18px;
+    height: 7px;
+    top: 7px;
+    left: 230px;
+  }
+  
+  .project-assignment .button-2 {
+    all: unset;
+    box-sizing: border-box;
+    width: 31px;
+    height: 22px;
+    top: 3px;
+    left: 97px;
+    background-color: #fefefe;
+    border-radius: 11px;
+    border: 1px solid;
+    border-color: #8b98b0;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-12 {
+    position: absolute;
+    top: 0;
+    left: 13px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #bdc1ca;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .overlap-3 {
+    width: 248px;
+    top: 128px;
+    left: 520px;
+    position: absolute;
+    height: 44px;
+  }
+  
+  .project-assignment .text-wrapper-13 {
+    width: 64px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .project-assignment .button-3 {
+    all: unset;
+    box-sizing: border-box;
+    left: 64px;
+    position: absolute;
+    width: 31px;
+    height: 22px;
+    top: 0;
+    background-color: #fefefe;
+    border-radius: 11px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #8b98b0;
+  }
+  
+  .project-assignment .overlap-4 {
+    width: 249px;
+    top: 128px;
+    left: 256px;
+    position: absolute;
+    height: 44px;
+  }
+  
+  .project-assignment .text-wrapper-14 {
+    position: absolute;
+    width: 45px;
+    top: 0;
+    left: 0;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .project-assignment .line-2 {
+    width: 246px;
+    top: 38px;
+    left: 2px;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .project-assignment .button-4 {
+    all: unset;
+    box-sizing: border-box;
+    left: 48px;
+    position: absolute;
+    width: 31px;
+    height: 22px;
+    top: 0;
+    background-color: #fefefe;
+    border-radius: 11px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #8b98b0;
+  }
+  
+  .project-assignment .image-7 {
+    position: absolute;
+    width: 18px;
+    height: 7px;
+    top: 7px;
+    left: 231px;
+  }
+  
+  .project-assignment .overlap-5 {
+    width: 247px;
+    top: 128px;
+    left: 1048px;
+    position: absolute;
+    height: 44px;
+  }
+  
+  .project-assignment .overlap-6 {
+    width: 247px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 44px;
+  }
+  
+  .project-assignment .text-wrapper-15 {
+    position: absolute;
+    width: 85px;
+    top: 0;
+    left: 0;
+    font-family: "Manrope-Bold", Helvetica;
+    font-weight: 700;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .project-assignment .line-3 {
+    width: 247px;
+    top: 38px;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .project-assignment .button-5 {
+    all: unset;
+    box-sizing: border-box;
+    width: 31px;
+    height: 22px;
+    top: 1px;
+    left: 89px;
+    background-color: #fefefe;
+    border-radius: 11px;
+    border: 1px solid;
+    border-color: #8b98b0;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .image-8 {
+    position: absolute;
+    width: 18px;
+    height: 7px;
+    top: 7px;
+    left: 229px;
+  }
+  
+  .project-assignment .container-12 {
+    position: absolute;
+    width: 248px;
+    height: 294px;
+    top: 186px;
+    left: 256px;
+    background-color: #f4f7fd;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .project-assignment .button-6 {
+    all: unset;
+    box-sizing: border-box;
+    width: 234px;
+    height: 38px;
+    top: 496px;
+    left: 5px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #6d31ed;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-16 {
+    position: absolute;
+    top: 6px;
+    left: 98px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #6d31ed;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 23px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .add {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -2760px;
+    left: 536px;
+  }
+  
+  .project-assignment .container-13 {
+    position: absolute;
+    width: 236px;
+    height: 239px;
+    top: 6px;
+    left: 5px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .project-assignment .line-wrapper {
+    position: absolute;
+    width: 214px;
+    height: 1px;
+    top: 156px;
+    left: 11px;
+    background-image: url(./img/image.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .project-assignment .line-4 {
+    width: 79px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .project-assignment .p {
+    position: absolute;
+    width: 215px;
+    top: 39px;
+    left: 11px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+  
+  .project-assignment .an-easy-software {
+    position: absolute;
+    width: 166px;
+    top: 83px;
+    left: 11px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  
+  .project-assignment .text-wrapper-17 {
+    top: 126px;
+    left: 11px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 13px;
+    line-height: 22px;
+    position: absolute;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-18 {
+    top: 126px;
+    left: 197px;
+    color: #171a1f;
+    position: absolute;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-19 {
+    position: absolute;
+    top: 164px;
+    left: 121px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .button-7 {
+    all: unset;
+    box-sizing: border-box;
+    width: 37px;
+    height: 21px;
+    top: 203px;
+    left: 46px;
+    background-color: #eceff5;
+    border-radius: 11px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-20 {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #bdc1ca;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .radio-btn-checked {
+    top: 168px;
+    left: 57px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .project-assignment .radio-button-checked {
+    top: 168px;
+    left: 11px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .project-assignment .avatar {
+    top: 200px;
+    left: 10px;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+  }
+  
+  .project-assignment .image-9 {
+    position: absolute;
+    width: 17px;
+    height: 16px;
+    top: 168px;
+    left: 101px;
+  }
+  
+  .project-assignment .button-8 {
+    all: unset;
+    box-sizing: border-box;
+    width: 57px;
+    height: 22px;
+    top: 10px;
+    left: 11px;
+    background-color: #2663eb;
+    border-radius: 11px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-21 {
+    position: absolute;
+    top: 2px;
+    left: 12px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 10px;
+    letter-spacing: 0;
+    line-height: 16px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .button-9 {
+    all: unset;
+    box-sizing: border-box;
+    width: 236px;
+    top: 251px;
+    position: absolute;
+    height: 38px;
+    left: 5px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #6d31ed;
+  }
+  
+  .project-assignment .plus {
+    top: 12px;
+    left: 78px;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+  }
+  
+  .project-assignment .container-14 {
+    position: absolute;
+    width: 248px;
+    height: 294px;
+    top: 186px;
+    left: 520px;
+    background-color: #f4f7fd;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .project-assignment .button-10 {
+    all: unset;
+    box-sizing: border-box;
+    position: absolute;
+    width: 233px;
+    height: 38px;
+    top: 496px;
+    left: 7px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #6d31ed;
+  }
+  
+  .project-assignment .add-2 {
+    position: absolute;
+    width: 15px;
+    height: 15px;
+    top: -2760px;
+    left: 270px;
+  }
+  
+  .project-assignment .container-15 {
+    position: absolute;
+    width: 237px;
+    height: 239px;
+    top: 6px;
+    left: 5px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .project-assignment .implement-a-low {
+    position: absolute;
+    width: 154px;
+    top: 39px;
+    left: 13px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 18px;
+  }
+  
+  .project-assignment .an-easy-software-2 {
+    position: absolute;
+    width: 166px;
+    top: 83px;
+    left: 13px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 16px;
+  }
+  
+  .project-assignment .text-wrapper-22 {
+    top: 126px;
+    left: 13px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 13px;
+    line-height: 22px;
+    position: absolute;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-23 {
+    top: 126px;
+    left: 203px;
+    color: #415275;
+    position: absolute;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-24 {
+    position: absolute;
+    top: 164px;
+    left: 127px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .button-11 {
+    all: unset;
+    box-sizing: border-box;
+    top: 203px;
+    left: 46px;
+    position: absolute;
+    width: 37px;
+    height: 21px;
+    background-color: #f1fde9;
+    border-radius: 11px;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-25 {
+    position: absolute;
+    top: 0;
+    left: 8px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #37750c;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .radio-btn-checked-2 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 168px;
+    left: 59px;
+  }
+  
+  .project-assignment .radio-button-checked-2 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 168px;
+    left: 13px;
+  }
+  
+  .project-assignment .image-10 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 168px;
+    left: 108px;
+  }
+  
+  .project-assignment .button-12 {
+    all: unset;
+    box-sizing: border-box;
+    width: 67px;
+    height: 22px;
+    top: 9px;
+    left: 10px;
+    background-color: #d918f9;
+    border-radius: 11px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-26 {
+    position: absolute;
+    top: 1px;
+    left: 12px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .img-wrapper {
+    position: absolute;
+    width: 214px;
+    height: 1px;
+    top: 156px;
+    left: 13px;
+    background-image: url(./img/line-2-10.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .project-assignment .button-13 {
+    all: unset;
+    box-sizing: border-box;
+    width: 237px;
+    height: 38px;
+    top: 251px;
+    left: 5px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border: 1px solid;
+    border-color: #6d31ed;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-27 {
+    position: absolute;
+    top: 6px;
+    left: 99px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #6d31ed;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 23px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .plus-2 {
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    top: 12px;
+    left: 79px;
+  }
+  
+  .project-assignment .container-16 {
+    position: absolute;
+    width: 248px;
+    height: 295px;
+    top: 186px;
+    left: 784px;
+    background-color: #f4f7fd;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .project-assignment .container-17 {
+    position: absolute;
+    width: 237px;
+    height: 240px;
+    top: 5px;
+    left: 5px;
+    background-color: #fefefe;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .project-assignment .overlap-group-2 {
+    position: absolute;
+    width: 214px;
+    height: 1px;
+    top: 156px;
+    left: 10px;
+    background-image: url(./img/line-2-6.svg);
+    background-size: cover;
+    background-position: 50% 50%;
+  }
+  
+  .project-assignment .line-5 {
+    width: 151px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .project-assignment .text-wrapper-28 {
+    position: absolute;
+    top: 40px;
+    left: 13px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-29 {
+    position: absolute;
+    top: 80px;
+    left: 13px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-30 {
+    top: 127px;
+    left: 11px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 13px;
+    line-height: 22px;
+    position: absolute;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-31 {
+    top: 127px;
+    left: 198px;
+    color: #171a1f;
+    position: absolute;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-32 {
+    position: absolute;
+    top: 165px;
+    left: 119px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-33 {
+    top: 166px;
+    left: 32px;
+    position: absolute;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #bdc1ca;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-34 {
+    top: 165px;
+    left: 77px;
+    position: absolute;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #bdc1ca;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .radio-btn-checked-3 {
+    top: 169px;
+    left: 57px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .project-assignment .radio-button-checked-3 {
+    top: 169px;
+    left: 13px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .project-assignment .avatar-2 {
+    top: 201px;
+    left: 13px;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+  }
+  
+  .project-assignment .image-11 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 169px;
+    left: 101px;
+  }
+  
+  .project-assignment .button-14 {
+    all: unset;
+    box-sizing: border-box;
+    width: 40px;
+    height: 22px;
+    top: 8px;
+    left: 13px;
+    background-color: #f59e0b;
+    border-radius: 11px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-35 {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .button-15 {
+    all: unset;
+    box-sizing: border-box;
+    top: 204px;
+    left: 49px;
+    position: absolute;
+    width: 37px;
+    height: 21px;
+    background-color: #f1fde9;
+    border-radius: 11px;
+    overflow: hidden;
+  }
+  
+  .project-assignment .container-18 {
+    position: absolute;
+    width: 247px;
+    height: 295px;
+    top: 186px;
+    left: 1048px;
+    background-color: #f4f7fd;
+    border-radius: 4px;
+    box-shadow: 0px 0px 1px #171a1f12, 0px 0px 2px #171a1f1f;
+  }
+  
+  .project-assignment .text-wrapper-36 {
+    position: absolute;
+    width: 174px;
+    top: 40px;
+    left: 13px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 13px;
+    letter-spacing: 0;
+    line-height: 22px;
+  }
+  
+  .project-assignment .text-wrapper-37 {
+    position: absolute;
+    top: 84px;
+    left: 12px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 12px;
+    letter-spacing: 0;
+    line-height: 20px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-38 {
+    top: 127px;
+    left: 14px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 13px;
+    line-height: 22px;
+    position: absolute;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-39 {
+    top: 127px;
+    left: 197px;
+    color: #171a1f;
+    position: absolute;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-40 {
+    position: absolute;
+    top: 163px;
+    left: 137px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-41 {
+    top: 165px;
+    left: 82px;
+    position: absolute;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #bdc1ca;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .text-wrapper-42 {
+    top: 165px;
+    left: 35px;
+    position: absolute;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #bdc1ca;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 22px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .button-16 {
+    all: unset;
+    box-sizing: border-box;
+    width: 70px;
+    height: 22px;
+    top: 10px;
+    left: 14px;
+    background-color: #7b3aed;
+    border-radius: 11px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-43 {
+    top: 0;
+    left: 8px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #ffffff;
+    font-size: 12px;
+    line-height: 20px;
+    position: absolute;
+    letter-spacing: 0;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .button-17 {
+    all: unset;
+    box-sizing: border-box;
+    width: 41px;
+    height: 21px;
+    top: 204px;
+    left: 48px;
+    background-color: #fce3de;
+    border-radius: 11px;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-44 {
+    position: absolute;
+    top: 0;
+    left: 9px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #ec6e52;
+    font-size: 11px;
+    letter-spacing: 0;
+    line-height: 18px;
+    white-space: nowrap;
+  }
+  
+  .project-assignment .radio-btn-checked-4 {
+    top: 167px;
+    left: 66px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .project-assignment .radio-btn-checked-5 {
+    top: 167px;
+    left: 14px;
+    position: absolute;
+    width: 16px;
+    height: 16px;
+  }
+  
+  .project-assignment .avatar-3 {
+    top: 201px;
+    left: 12px;
+    position: absolute;
+    width: 28px;
+    height: 28px;
+  }
+  
+  .project-assignment .image-12 {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    top: 167px;
+    left: 118px;
+  }
+  
+  .project-assignment .overlap-group-3 {
+    position: absolute;
+    width: 217px;
+    height: 1px;
+    top: 156px;
+    left: 14px;
+  }
+  
+  .project-assignment .line-6 {
+    width: 214px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .project-assignment .line-7 {
+    width: 217px;
+    top: 0;
+    left: 0;
+    position: absolute;
+    height: 1px;
+    object-fit: cover;
+  }
+  
+  .project-assignment .button-18 {
+    all: unset;
+    box-sizing: border-box;
+    width: 237px;
+    top: 496px;
+    position: absolute;
+    height: 38px;
+    left: 5px;
+    background-color: #ffffff;
+    border-radius: 4px;
+    overflow: hidden;
+    border: 1px solid;
+    border-color: #6d31ed;
+  }
+  
+  .project-assignment .plus-3 {
+    top: -2760px;
+    left: -254px;
+    position: absolute;
+    width: 14px;
+    height: 14px;
+  }
+  
+  .project-assignment .button-19 {
+    all: unset;
+    box-sizing: border-box;
+    width: 72px;
+    height: 33px;
+    top: 129px;
+    left: 1343px;
+    background-color: #ffffff;
+    border-radius: 6px;
+    border: 1px solid;
+    border-color: #171a1f;
+    position: absolute;
+    overflow: hidden;
+  }
+  
+  .project-assignment .text-wrapper-45 {
+    position: absolute;
+    top: 4px;
+    left: 12px;
+    font-family: "Manrope-Regular", Helvetica;
+    font-weight: 400;
+    color: #171a1f;
+    font-size: 14px;
+    letter-spacing: 0;
+    line-height: 23px;
+    white-space: nowrap;
+  }
